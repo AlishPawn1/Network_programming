@@ -14,6 +14,8 @@ public class TestRechability {
             // Check if host is reachable with a custom TTL and timeout
             boolean isHostReachable = InetAddress.getByName("esewa.com").isReachable(null, 1, 10);
             System.out.println("Is localhost reachable? " + isHostReachable);
+            
+//            time out affect the return value it check time if it reach in that time.
         } catch (Exception e) {
             e.printStackTrace();
         }
