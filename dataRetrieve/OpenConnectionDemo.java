@@ -6,7 +6,7 @@ import java.net.*;
 public class OpenConnectionDemo {
 	public static void main(String[] args) {
 		try {
-			URL url = new URL("https://dummyjson.com/recipes/1");
+			URL url = new URL("https://dummyjson.com/posts/1");
 			URLConnection urlcon = url.openConnection();
 			InputStream stream = urlcon.getInputStream();
 			int i;
